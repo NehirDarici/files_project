@@ -3,8 +3,8 @@
 //Personellerin farklı türdeki verilerini saklamak için struct kullanıldı.
 typedef struct {
     int sicilNo;
-    char ad[50];
-    char soyad[50];
+    char ad[500];
+    char soyad[500];
     int satisMiktari;
 } Personel;
 
@@ -23,8 +23,7 @@ int main() {
     }
 
     //Dosyanın sonuna gelene kadar her satırdaki verileri sırasıyla ilgili adrese aktarılır.
-    while (!feof(yillikDosyasi)){
-        fscanf(yillikDosyasi, "%d %s %s %d", &personel[personelSayisi].sicilNo,personel[personelSayisi].ad, personel[personelSayisi].soyad,&personel[personelSayisi].satisMiktari);
+    while (fscanf(yillikDosyasi, "%d %s %s %d", &personel[personelSayisi].sicilNo,personel[personelSayisi].ad, personel[personelSayisi].soyad,&personel[personelSayisi].satisMiktari)==4){
         personelSayisi++;//Her satır için personel sayısı bir artırılır.
         if (personelSayisi > 50) {//Eğer personel sayısı 50'den fazlaysa program durdurulur.
             printf("50'den fazla personel girisi yapilamaz.");
