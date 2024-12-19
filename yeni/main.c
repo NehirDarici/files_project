@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Okunurluğun daha iyi olması için personel bilgileri bir yapı içerisinde kullanılmıştır.
+//Personellerin farklı türdeki verilerini saklamak için struct kullanıldı.
 typedef struct {
     int sicilNo;
     char ad[50];
