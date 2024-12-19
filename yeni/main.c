@@ -6,11 +6,11 @@ typedef struct {
     char ad[500];
     char soyad[500];
     int satisMiktari;
-} Personel;
+} PersonelBilgisi;
 
 int main() {
     FILE *yillikDosyasi, *satislarDosyasi; //Programda kullanılacak olan dosyalar için pointerlar oluşturuldu.
-    Personel personel[50]; //Her personelin verilerini tutmak için dizi açıldı. En fazla 50 kişi olabileceği için eleman sayısı 50 olarak belirlendi.
+    PersonelBilgisi personel[50]; //Her personelin verilerini tutmak için dizi açıldı. En fazla 50 kişi olabileceği için eleman sayısı 50 olarak belirlendi.
     int i, maxSatis=0, personelSayisi=0;
 
     //Personellerin satış verilerinin olduğu dosya okuma modunda açılır.
