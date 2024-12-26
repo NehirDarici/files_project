@@ -3,3 +3,6 @@ Son olarak da yeni bir dosyaya personellerin bilgilerini ve ne kadar daha fazla 
 
 
 **yillik.dat ve satis.dat dosyaları "cmake-build-debug" klasörünün içindedir.
+
+
+SUNUM LİNKİ:https:[//www.canva.com/design/DAGaBXfdCwU/7OmZscGzTCUiodB-LBxZCQ/edit?utm_content=DAGaBXfdCwU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGaBXfdCwU/7OmZscGzTCUiodB-LBxZCQ/edit?utm_content=DAGaBXfdCwU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
